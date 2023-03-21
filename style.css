@@ -1,0 +1,171 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+a .btnwraper {
+    color: #009a40;
+    background-color: yellow;
+    border: 1px solid#009a40;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+a button {
+    text-decoration: none;
+}
+
+.btnwraper:hover {
+    color: white;
+    background-color:#009a40;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover {
+    animation: mymoves 3s infinite;
+}
+
+@keyframes mymoves {
+    from {
+        background-color: rgb(235, 29, 22);
+    }
+    to {
+        background-color: rgb(248, 8, 236);
+    }
+}
+
+.carousel-control-next-icon:hover {
+    animation: identifier 3s infinite;
+}
+
+@keyframes identifier {
+    from {
+        background-color: rgb(235, 47, 22);
+    }
+    to {
+        background-color: rgb(248, 8, 188);
+    }
+}
+
+.toptext {
+    position: absolute;
+    z-index: 1;
+}
+
+.navwraper {
+    position: absolute;
+    z-index: 1;
+    top: 9%;
+    background-color: #009a40;
+    opacity: 0.8;
+}
+li:hover{
+    color: gold;
+}
+
+.styleh1p h1 {
+    color: #009a40;
+    padding-bot:3%;
+}
+
+.styleh1p p {
+    display: block;
+    padding-bottom: 3%;
+}
+
+.mystyle {
+    border: 1px solid black;
+    display: flex;
+}
+
+.givenmargins {
+    margin: auto;
+    width: 100%;
+    padding-top: 4%;
+}
+
+.dot {
+    height: 150px;
+    width: 150px;
+    background-color: #009a40;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 2px solid yellow;
+    opacity: 0.7;
+    padding-top: 3% !important;
+    padding-bottom: 5% !important;
+}
+
+.dot i {
+    font-size: 50px;
+    padding-top: 100% !important;
+    color: white;
+    top: 50% !important;
+    margin: auto !important;
+    padding: auto !important;
+}
+
+.icontext p {
+    padding-top: 38%;
+    padding-bottom: 5%;
+}
+
+.icontext hr {
+    color: yellow;
+    opacity: 0.8;
+    margin-left: 5%;
+    margin-right: 7%;
+    padding-bottom: 4%;
+    margin-top: 6%;
+}
+
+.btncontainer {
+    text-align: center;
+}
+
+.btncontainer button {
+    border: 2px solid#009a40;
+    color: #009a40;
+    background-color: yellow;
+    border-radius: 6%;
+    padding-top: 2%;
+}
+
+.btncontainer button:hover {
+    background-color: aqua;
+    color: black;
+    border: 0rem;
+}
+
+.stylefooter {
+    border-top: 10px solid yellow;
+}
+
+.footstyle {
+    background-color: #009a40;
+    opacity: 0.8;
+}
+
+.underlineme h5 {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.underlineme p {
+    padding-top: 4%;
+}
+.adress{
+    display: flex;
+    color: white;
+}
